@@ -1,0 +1,23 @@
+{
+    "name": "tafoyaventures/phpmysqllib",
+	"type": "library",
+	"license": "LGP-2.1",
+    "description": "PHP MySQLi Client Library.",
+	"homepage": "https://github.com/tafoyaventures/MySQLLib",
+	"authors": [
+		{
+			"name": "Brian Tafoya",
+			"email": "btafoya@tafoyaventures.com",
+			"homepage": "https://tafoyaventures.com",
+			"role": "Developer"
+		}
+	],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-curl": "*",
+		"ext-mysqli": "*"
+    },
+	"autoload": {
+        "classmap": ["src/MySQLLib.php"]
+    }
+}
