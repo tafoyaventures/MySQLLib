@@ -12,7 +12,7 @@
 ### Example
 
 ``
-$db = new smDBMySQLi("{database_username}"),{database_password},{database_name},{database_server_hostname});
+$db = new MySQLLib("{database_username}"),{database_password},{database_name},{database_server_hostname});
 `` 
 
 Execute a select, with the response in on of three formats: Numeric Array [ARRAY_N], Associative Array [ARRAY_A], or an Object [OBJECT] which is the default.  
